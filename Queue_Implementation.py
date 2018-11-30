@@ -20,15 +20,3 @@ class Queue(object):
     def size(self):
         return len(self.items)
 
-
-k = Queue()
-k.enqueue(6)
-k.enqueue(3)
-k.enqueue(4)
-k.showQueue()
-print(k.dequeue())
-k.showQueue()
-print(k.dequeue())
-k.showQueue()
-print(k.dequeue())
-k.showQueue()
